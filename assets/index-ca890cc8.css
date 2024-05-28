@@ -1,1 +1,0 @@
-@tailwind base;@tailwind components;@tailwind utilities;*{margin:0}@keyframes blink{0%,to{opacity:1}50%{opacity:0}}.animate-blink{animation:blink 1s infinite}.typing-text{display:inline-block;position:relative;padding-right:8px}.animate-blink{position:absolute;right:0}

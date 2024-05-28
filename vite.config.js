@@ -5,10 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/personalweb/",
-  build: {
-    outDir: "dist",
-    rollupOptions: {
-      input: "/src/main.jsx",
-    },
-  },
 });

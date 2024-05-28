@@ -1,4 +1,7 @@
 import { useState } from "react";
+import FitSite from "../assets/fitsite.png";
+import Etch from "../assets/etchasketch.png";
+import Discord from "../assets/discord.png";
 
 function ProjectsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -10,7 +13,7 @@ function ProjectsCarousel() {
         "A tool used for meal planning. This tool will eventually expand to include fitness planning, water intake tracking, and sleep tracking.",
       github: "#",
       link: "#",
-      imageUrl: "src/assets/fitsite.png",
+      imageUrl: FitSite,
     },
     {
       name: "Etch-a-Sketch",
@@ -18,7 +21,7 @@ function ProjectsCarousel() {
         "A dynamic and responsive based drawing tool using JavaScript, HTML, and CSS. This project was done for an assignment by The Odin Project.",
       github: "#",
       link: "#",
-      imageUrl: "src/assets/etchasketch.png",
+      imageUrl: Etch,
     },
     {
       name: "Discord Bot (WIP)",
@@ -26,7 +29,7 @@ function ProjectsCarousel() {
         "A discord bot that uses the Riot Games API to display information involving League of Legends. The bot can be used for custom game creation, stat displaying, and as a database.",
       github: "#",
       link: "#",
-      imageUrl: "src/assets/discord.png",
+      imageUrl: Discord,
     },
   ];
 
